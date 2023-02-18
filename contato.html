@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação Tecnologia</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="shortcut" href="img/favicon.png">
+</head>
+<body>
+    <header class="fixo">
+        <h1><img class="imglogo" src="img/images.jpeg"></h1>
+        <nav class="menu-opcoes">
+            <ul class="ajustes">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#html">HTML</a></li>
+                <li><a href="index.html#CSS">CSS</a></li>
+                <li><a href="JavaScript.html">JavaScript</a></li>
+                <li><a href="Float_Right.html"> Float_Right</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+
+        <h1 class="titulos">Formulário de Contato</h1>
+
+            <p class="centro">Entre em Contato conosco Para Duvidas e Sugestões.</p>
+            <div class="fundo">
+                <form>
+                    <div class="distancia">    
+                        <input type="text" placeholder="Digite seu Nome">    
+                    </div>
+                    <div class="distancia">   
+                        <input type="text" placeholder="Digite seu SobreNome">
+                    </div>
+                    <div class="distancia">    
+                        <input type="text" placeholder="Digite seu Email">
+                    </div><br>
+                    <div class="distancia">
+                        <input type="text" placeholder="Digite o Assunto">
+                    </div>
+                    <div class="distancia">
+                        <h2 class="titulos">Sexo</h2>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="html">Feminino</label><br>
+                        <input type="radio" id="famele" name="gender" value="famele">
+                        <label for="css">Masculino</label><br>
+                    </div>
+                    <div class="distancia">
+                        <h2 class="titulos">Selecione as Tecnologia</h2>
+                        <input type="checkbox" id="male" name="gender" value="male">
+                        <label for="html">HTML</label><br>
+                        <input type="checkbox" id="male" name="gender" value="male">
+                        <label for="css">CSS</label><br>
+                        <input type="checkbox" id="male" name="gender" value="male">
+                        <label for="html">JavaScript</label><br>
+                    </div>
+                    <div class="distancia">
+                        <label for="cars">Senioridade</label> 
+                        <select id="senioridade">
+                            <option selected disabled value="">Selecione</option>
+                            <option>Junior</option>
+                            <option>Pleneo</option>
+                            <option>Senio</option>
+                        </select>    
+                    </div>
+                    <div>
+                        <label for="cars">Sugestões ou Dúvida</label>
+                        <textarea name="massage" style="width: 80%; height: 200px;">Digite Seu Texto.</textarea>
+                    </div>
+                    <div class="distancia">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>       
+    </div>
+    <footer>
+        <p class="titulos">RodaPé</p>
+    </footer>
+</body>
+</html>
